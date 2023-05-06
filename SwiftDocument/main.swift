@@ -1,11 +1,8 @@
-//
-//  main.swift
-//  SwiftDocument
-//
-//  Created by yona on 2023/05/06.
-//
+var foo: String = "a"
+var bar: String = "a"
 
-import Foundation
+print(foo.hashValue == bar.hashValue)
 
-print("Hello, World!")
+var letters: Set<Character> = []
+print(letters.count)
 
